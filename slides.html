@@ -17,21 +17,23 @@
             letter-spacing: normal;
             text-transform: none;
         }
-        body:after {
-            background-image: url(https://binx.io/img/icons/apple-touch-icon.png);
-            background-size: 100px;
-            display: inline-block;
-            width: 100px; 
-            height: 100px;
-            content:"";
-            position: fixed;
-            bottom: 0.5em;
-            left: 1em;
-            box-shadow: 5px 5px 10px #000;
-            border: 0px;
-            -webkit-box-shadow: none;
-            -moz-box-shadow: none;
-            box-shadow: none;
+        @media screen {
+            body:after {
+                background-image: url(https://binx.io/img/icons/apple-touch-icon.png);
+                background-size: 100px;
+                display: inline-block;
+                width: 100px; 
+                height: 100px;
+                content:"";
+                position: fixed;
+                bottom: 0.5em;
+                left: 1em;
+                box-shadow: 5px 5px 10px #000;
+                border: 0px;
+                -webkit-box-shadow: none;
+                -moz-box-shadow: none;
+                box-shadow: none;
+            }
         }
         .reveal code {
             background: #efefef;

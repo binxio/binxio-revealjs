@@ -1,4 +1,4 @@
-#Binx.io Reveal.js Starter
+# Binx.io Reveal.js Starter
 
 ## Run local
 
