@@ -1,0 +1,78 @@
+<html>
+	<head>
+        <link href="https://fonts.googleapis.com/css?family=Ubuntu:300,400,700" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.6.0/css/reveal.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.6.0/css/theme/white.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/github.min.css">
+        <style>
+        .reveal h1,
+        .reveal h2,
+        .reveal h3,
+        .reveal h4,
+        .reveal h5,
+        .reveal h6 {
+            font-family: "Ubuntu";
+            font-weight: 300;
+            line-height: 1.2;
+            letter-spacing: normal;
+            text-transform: none;
+        }
+        body:after {
+            background-image: url(https://binx.io/img/icons/apple-touch-icon.png);
+            background-size: 100px;
+            display: inline-block;
+            width: 100px; 
+            height: 100px;
+            content:"";
+            position: fixed;
+            bottom: 0.5em;
+            left: 1em;
+            box-shadow: 5px 5px 10px #000;
+            border: 0px;
+            -webkit-box-shadow: none;
+            -moz-box-shadow: none;
+            box-shadow: none;
+        }
+        .reveal code {
+            background: #efefef;
+        }
+        .reveal .progress {
+            background: rgba(0, 0, 0, 0.2);
+            color: #CB4A3E; 
+        }
+        .reveal .controls {
+            color: #CB4A3E;
+        }
+        .whiter, .whiter > h1, .whiter > h2, .whiter > h3 {
+            color: #fff;
+        }
+        </style>
+    </head>
+	<body>
+		<div class="reveal">
+			<div class="slides">
+				<section data-markdown="slides.md">
+                </section>
+			</div>
+        </div>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.6.0/js/reveal.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.6.0/plugin/highlight/highlight.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/dockerfile.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/yaml.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.6.0/plugin/markdown/marked.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.6.0/plugin/markdown/markdown.min.js"></script>
+		<script>
+			Reveal.initialize({
+                progress: true,
+                slideNumber: true
+            });
+        </script>
+        <script>
+            var link = document.createElement( 'link' );
+            link.rel = 'stylesheet';
+            link.type = 'text/css';
+            link.href = window.location.search.match( /print-pdf/gi ) ? 'https://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.6.0/css/print/pdf.min.css' : '';
+            document.getElementsByTagName( 'head' )[0].appendChild( link );
+        </script>
+	</body>
+</html>
